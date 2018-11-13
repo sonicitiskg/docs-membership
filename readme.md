@@ -412,7 +412,7 @@ Membership API serve end point API to store data member
 		"FirstName": "John",
 		"LastName": "Indonesia",
 		"BirthDate": "1990-01-01",
-		"CitySNO": 1,
+		"CityID": "AAA",
 		"MembershipSNO": 1,
 		"CardNumber": "",
 		"NameOnCard": "",
@@ -535,6 +535,7 @@ Membership API serve end point API to update data member
 <br/><strong>PersonalIdentityNo</strong> <code>string(20)</code> : Personal identity no such as KTP/SIM/KITAS
 <br/><strong>BirthPlace</strong> <code>string(20)</code> : Member birth place
 <br/><strong>MemberNo</strong> <code>string(20)</code> : Key for updating data
+<br/><strong>Source</strong> <code>string(20)</code> : Fill with "ONLINE"
 
 >Request body example:
 ``` javascript
@@ -544,7 +545,7 @@ Membership API serve end point API to update data member
 		"FirstName": "John",
 		"LastName": "Doe",
 		"BirthDate": "1990-01-01",
-		"CitySNO": 1,
+		"CityID": "AAA",
 		"MembershipSNO": 1,
 		"CardNumber": "",
 		"NameOnCard": "",
@@ -552,7 +553,8 @@ Membership API serve end point API to update data member
 		"Gender": "M",
 		"PersonalIdentityNo": "",
 		"BirthPlace": "",
-		"MemberNo":"M0001000001"
+		"MemberNo":"M0001000001",
+    "Source":"ONLINE"
 	}
 ```
 
