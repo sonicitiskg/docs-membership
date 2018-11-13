@@ -392,7 +392,8 @@ Membership API serve end point API to store data member
 <br/><strong>FirstName</strong> <code>string(50)</code> : Required, Member first name
 <br/><strong>LastName</strong> <code>string(50)</code> : Member last name
 <br/><strong>BirthDate</strong> <code>date</code> : Required, Member birth date, format <code>yyyy-mm-dd</code>
-<br/><strong>CitySNO</strong> <code>numeric</code> : Required, Member city
+<br/><strong>CitySNO</strong> <code>numeric</code> : Member city unique id (you can ignore it from v 1.0.016)
+<br/><strong>CityID</strong> <code>numeric</code> : Required, ID of City registered on MyValue
 <br/><strong>MembershipSNO</strong> <code>numeric</code> : Required, Membership unique id
 <br/><strong>CardNumber</strong> <code>string(20)</code> : Member card number, 16 digit
 <br/><strong>NameOnCard</strong> <code>string(20)</code> : Name on member card number
@@ -524,7 +525,8 @@ Membership API serve end point API to update data member
 <br/><strong>FirstName</strong> <code>string(50)</code> : Required, Member first name
 <br/><strong>LastName</strong> <code>string(50)</code> : Member last name
 <br/><strong>BirthDate</strong> <code>date</code> : Required, Member birth date, format <code>yyyy-mm-dd</code>
-<br/><strong>CitySNO</strong> <code>numeric</code> : Required, Member city
+<br/><strong>CitySNO</strong> <code>numeric</code> : Member city unique id (you can ignore it from v 1.0.016)
+<br/><strong>CityID</strong> <code>numeric</code> : Required, ID of City registered on MyValue
 <br/><strong>MembershipSNO</strong> <code>numeric</code> : Required, Membership unique id
 <br/><strong>CardNumber</strong> <code>string(20)</code> : Member card number, 16 digit
 <br/><strong>NameOnCard</strong> <code>string(20)</code> : Name on member card number
