@@ -862,6 +862,10 @@ This is the response from API:
 
 ## API Changelog
 
+### v 1.0.016
+
+- Add CityID parameter while Store and Update member
+
 ### v 1.0.015
 
 - Add Transaction method while generating member
