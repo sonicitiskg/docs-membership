@@ -397,6 +397,7 @@ Membership API serve end point API to store data member
 <br/><strong>MembershipSNO</strong> <code>numeric</code> : Required, Membership unique id
 <br/><strong>CardNumber</strong> <code>string(20)</code> : Member card number, 16 digit
 <br/><strong>NameOnCard</strong> <code>string(20)</code> : Name on member card number
+<br/><strong>OutletSNO</strong> <code>string(10)</code> : Required, Just fill with "" (empty string) (you can ignore it from v 1.0.016)
 <br/><strong>IDOutlet</strong> <code>string(10)</code> : Required, ID of outlet registered on MyValue
 <br/><strong>Gender</strong> <code>char(1)</code> : Required, "M" for male, "F" for female
 <br/><strong>PersonalIdentityNo</strong> <code>string(20)</code> : Personal identity no such as KTP/SIM/KITAS
@@ -412,10 +413,12 @@ Membership API serve end point API to store data member
 		"FirstName": "John",
 		"LastName": "Indonesia",
 		"BirthDate": "1990-01-01",
-		"CityID": "AAA",
+    "CityID": "AAA",
+		"CitySNO": "",
 		"MembershipSNO": 1,
 		"CardNumber": "",
 		"NameOnCard": "",
+    "OutletSNO":"",
 		"IDOutlet":"0101001001",
 		"Gender": "M",
 		"PersonalIdentityNo": "",
@@ -530,6 +533,7 @@ Membership API serve end point API to update data member
 <br/><strong>MembershipSNO</strong> <code>numeric</code> : Required, Membership unique id
 <br/><strong>CardNumber</strong> <code>string(20)</code> : Member card number, 16 digit
 <br/><strong>NameOnCard</strong> <code>string(20)</code> : Name on member card number
+<br/><strong>OutletSNO</strong> <code>string(10)</code> : Required, Just fill with "" (empty string) (you can ignore it from v 1.0.016)
 <br/><strong>IDOutlet</strong> <code>string(10)</code> : Required, ID of outlet registered on MyValue
 <br/><strong>Gender</strong> <code>char(1)</code> : Required, "M" for male, "F" for female
 <br/><strong>PersonalIdentityNo</strong> <code>string(20)</code> : Personal identity no such as KTP/SIM/KITAS
@@ -545,10 +549,12 @@ Membership API serve end point API to update data member
 		"FirstName": "John",
 		"LastName": "Doe",
 		"BirthDate": "1990-01-01",
-		"CityID": "AAA",
+    "CityID": "AAA",
+		"CitySNO": "",
 		"MembershipSNO": 1,
 		"CardNumber": "",
 		"NameOnCard": "",
+    "OutletSNO":"",
 		"IDOutlet":"0101001001",
 		"Gender": "M",
 		"PersonalIdentityNo": "",
