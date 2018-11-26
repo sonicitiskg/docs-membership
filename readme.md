@@ -8,8 +8,8 @@ Membership API can be requested through HTTP(S) Request to Membership Base URL e
 
 ## API Base URL
 
-Development Environment : <code>https://staging-membership.myvalue.com/</code><br/>
-Production Environment : <code>https://membership.myvalue.com/</code>
+Development Environment : <code>https://staging-membership.myvalue.id/</code><br/>
+Production Environment : <code>https://membership.myvalue.id/</code>
 
 ### HTTP(S) Header
 
