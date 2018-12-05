@@ -872,6 +872,10 @@ This is the response from API:
 
 ## API Changelog
 
+### v 1.0.018
+
+- Send update member to Gramedia while mapping card
+
 ### v 1.0.016
 
 - Add CityID parameter while Store and Update member
