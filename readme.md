@@ -888,6 +888,6 @@ This is the response from API:
 - Optimize store member
 - BUG FIX - Search member validation
 
-### v 1.0.014
+### v 1.0.014 (Stable)
 
 - HOTFIX - Member Generator
