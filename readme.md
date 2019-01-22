@@ -872,6 +872,10 @@ This is the response from API:
 
 ## API Changelog
 
+### v 1.0.019
+
+- BUG FIX - ValueID Generator
+
 ### v 1.0.018
 
 - Send update member to Gramedia while mapping card
